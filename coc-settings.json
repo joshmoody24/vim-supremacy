@@ -1,0 +1,12 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "css",
+    "json",
+    "markdown",
+    "html"
+  ],
+  "prettier.enable": true
+}
+
