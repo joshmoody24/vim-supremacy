@@ -30,7 +30,7 @@ return {
 				keymap.set("n", "gi", "<cmd>Telescope lsp_implementations<CR>", opts)
 
 				opts.desc = "Show LSP type definitions"
-				keymap.set("n", "gt", "<cmd>Telescope lsp_type_definitions<CR>", opts)
+				keymap.set("n", "gk", "<cmd>Telescope lsp_type_definitions<CR>", opts)
 
 				opts.desc = "See avilable code actions"
 				keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, opts)
