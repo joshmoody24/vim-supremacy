@@ -33,3 +33,5 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.mouse = "a"
+
+opt.showmode = false
