@@ -9,7 +9,7 @@ return {
 		sections = {
 			lualine_a = { "mode" },
 			lualine_b = {},
-			lualine_c = {},
+			lualine_c = { { "filename", path = 1 } },
 			lualine_x = {},
 			lualine_y = { "progress" },
 			lualine_z = {},
