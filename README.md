@@ -6,9 +6,9 @@ Vi mode everywhere
 
 ### Neovim settings
 
-Requires vim-plug.
+Requires lazy.nvim
 
-Put `coc-settings.json` and `init.vim` in the Neovim config location, probably `~/.config/nvim/`
+Put `lua` in the Neovim config location, probably `~/.config/nvim/`
 
 ### Bash settings
 
