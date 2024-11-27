@@ -13,7 +13,6 @@ return {
 
 		mason_lspconfig.setup({
 			ensure_installed = {
-				"tsserver",
 				"html",
 				"lua_ls",
 				"emmet_ls",
@@ -26,10 +25,7 @@ return {
 				-- formatters
 				"prettier",
 				"stylua",
-				"isort",
-				"black",
 				-- linters
-				"pylint",
 				"eslint_d",
 			},
 		})
