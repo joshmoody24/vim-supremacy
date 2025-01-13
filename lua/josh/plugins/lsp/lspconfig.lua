@@ -67,6 +67,9 @@ return {
 		-- config for specific language servers
 		mason_lspconfig.setup_handlers({
 			function(server_name)
+				-- if server_name == "tsserver" then
+				-- 	return --  typescript tools handles this, not Mason
+				-- end
 				lspconfig[server_name].setup({
 					capabilities = capabilities,
 				})

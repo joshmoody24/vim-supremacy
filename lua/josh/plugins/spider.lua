@@ -18,4 +18,9 @@ return {
 			mode = { "n", "o", "x" },
 		},
 	},
+	config = function()
+		require("spider").setup({
+			skipInsignificantPunctuation = false,
+		})
+	end,
 }
